@@ -1,0 +1,26 @@
+compliance|승낙
+conjunction|결합
+observance|준수
+celebration|축하
+demonstrate|증명하다
+expect|기대하다
+decline|하락하다
+permission|허가
+assign|할당하다
+associate|연상하다
+assume|가정하다, 떠맡다
+assure|확신시키다
+attach|붙이다
+attend|참석하다
+attract|흥미를 끌다
+attribute|탓으로 돌리다
+audit|감사하다
+authorize|권한을 주다
+aviod|피하다
+award|상을 주다
+benefit|혜택을 주다
+board|탑승하다
+brief|간략히 설명하다
+broaden|넓히다
+cancel|취소하다
+carry|계속 추진하다

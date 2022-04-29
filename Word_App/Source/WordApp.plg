@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WordApp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/WordApp.res" /d "_DEBUG" /d "_AFXDLL" "D:\민석\study\포트폴리오\깜빡이학습장\소스코드\WordApp.rc"" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/WordApp.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\민석\study\포트폴리오\깜빡이학습장\소스코드\BitmapDialog.cpp"
+"D:\민석\study\포트폴리오\깜빡이학습장\소스코드\dib256.cpp"
+"D:\민석\study\포트폴리오\깜빡이학습장\소스코드\dibpal.cpp"
+"D:\민석\study\포트폴리오\깜빡이학습장\소스코드\WordApp.cpp"
+"D:\민석\study\포트폴리오\깜빡이학습장\소스코드\WordAppDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP1A.tmp" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP1B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/WordApp.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\민석\study\포트폴리오\깜빡이학습장\소스코드\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP1B.tmp" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP1C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/WordApp.pdb" /debug /machine:I386 /out:"Debug/WordApp.exe" /pdbtype:sept 
+".\Debug\BitmapDialog.obj"
+".\Debug\dib256.obj"
+".\Debug\dibpal.obj"
+".\Debug\StdAfx.obj"
+".\Debug\WordApp.obj"
+".\Debug\WordAppDlg.obj"
+".\Debug\WordApp.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP1C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BitmapDialog.cpp
+dib256.cpp
+dibpal.cpp
+WordApp.cpp
+WordAppDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+WordApp.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,271 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\WordApp.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 175, 56
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "WordApp 정보"
+FONT 9, "굴림"
+BEGIN
+    ICON            143,IDC_STATIC,11,16,20,21
+    LTEXT           "WordApp 버전 1.0",IDC_STATIC,40,15,72,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC,40,30,71,8
+    DEFPUSHBUTTON   "확인",IDOK,118,35,50,14,WS_GROUP
+END
+
+IDD_WORDAPP_DIALOG DIALOGEX 0, 0, 367, 282
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "WordApp"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,109,119,250,142
+    CONTROL         "단어 입력",IDC_SAVEBUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,181,80,50,31
+    CONTROL         "단어 삭제",IDC_DELETEBUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,309,80,50,34
+    EDITTEXT        IDC_INPUTWORD,109,81,70,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INPUTMEANING,109,98,70,14,ES_AUTOHSCROLL
+    CONTROL         "초기화면",IDC_MENU1BUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,16,66,50,34
+    CONTROL         "단어암기",IDC_MENU3BUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,16,144,50,34
+    CONTROL         "영어시험",IDC_MENU4BUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,16,184,50,34
+    CONTROL         "단어시험",IDC_MENU2BUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,16,104,50,34
+    EDITTEXT        IDC_SELECTWORD,237,81,70,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_SELECTMEANING,237,98,70,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "",IDC_QUESTIONS,134,75,100,38,WS_GROUP
+    CONTROL         "ten",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    141,94,26,10
+    CONTROL         "twenty",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,185,94,
+                    45,10
+    EDITTEXT        IDC_QUESTION,134,117,150,26,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_ANSWER,134,153,100,26,ES_AUTOHSCROLL
+    CONTROL         "Progress1",IDC_CORRECTBAR,"msctls_progress32",
+                    PBS_SMOOTH | WS_BORDER,175,183,110,20
+    CONTROL         "Progress1",IDC_WRONGBAR,"msctls_progress32",PBS_SMOOTH | 
+                    WS_BORDER,175,208,110,20
+    CONTROL         "Progress1",IDC_GRADEBAR,"msctls_progress32",PBS_SMOOTH | 
+                    WS_BORDER,175,233,110,20
+    CONTROL         "시작",IDC_STARTBUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,242,86,41,25
+    CONTROL         "제출",IDC_OKANSWER,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    242,152,41,25
+    LTEXT           "Corrects",IDC_CORRECTS,134,188,38,10
+    LTEXT           "Wrongs",IDC_WRONGS,134,213,39,15
+    LTEXT           "Rate(%)",IDC_RATE,134,238,39,14
+    LTEXT           "Questions",IDC_QUESTION2,134,62,98,19
+    LTEXT           "Insertion",IDC_INSERTION,109,62,98,19
+    LTEXT           "Deletion",IDC_DELETION,237,62,98,19
+    CONTROL         "?",IDC_QUESTIONMARK,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    112,118,20,61
+    CONTROL         151,IDC_BLINK,"Static",SS_BITMAP,126,67,197,197
+    CTEXT           "",IDC_BLINKWORD,169,115,120,30,SS_CENTERIMAGE
+    CTEXT           "",IDC_BLINKMEANING,169,156,120,30,SS_CENTERIMAGE
+    CONTROL         "Button1",IDC_PLAYBUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,215,214,23,27
+    CONTROL         "Button1",IDC_NEXTBUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,260,214,23,27
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "WordApp MFC 응용 프로그램\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "WordApp\0"
+            VALUE "LegalCopyright", "Copyright (C) 2010\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "WordApp.EXE\0"
+            VALUE "ProductName", "WordApp 응용 프로그램\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 168
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 49
+    END
+
+    IDD_WORDAPP_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 362
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 275
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MENU1               BITMAP  DISCARDABLE     "res\\Menu1.bmp"
+IDB_MENU2               BITMAP  DISCARDABLE     "res\\Menu2.bmp"
+IDB_MENU3               BITMAP  DISCARDABLE     "res\\Menu3.bmp"
+IDB_MENU4               BITMAP  DISCARDABLE     "res\\Menu4.bmp"
+IDB_BG                  BITMAP  DISCARDABLE     "res\\BackGround.bmp"
+IDB_ADD                 BITMAP  DISCARDABLE     "res\\AddButton.bmp"
+IDB_DELETE              BITMAP  DISCARDABLE     "res\\DeleteButton.bmp"
+IDB_SUBMIT              BITMAP  DISCARDABLE     "res\\Submit.bmp"
+IDB_START               BITMAP  DISCARDABLE     "res\\Start.bmp"
+IDB_QUESTION            BITMAP  DISCARDABLE     "res\\Question.bmp"
+IDB_BLINK               BITMAP  DISCARDABLE     "res\\Blink.bmp"
+IDB_PLAY                BITMAP  DISCARDABLE     "res\\Play.bmp"
+IDB_NEXT                BITMAP  DISCARDABLE     "res\\Next.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN                ICON    DISCARDABLE     "res\\WordApp.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "WordApp 정보(&A)..."
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\WordApp.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
