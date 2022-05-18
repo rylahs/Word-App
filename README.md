@@ -21,6 +21,7 @@ Cancel changes
 - OS : Windows 7   
 
 # 상세 내용
+![wordApp](https://user-images.githubusercontent.com/94848571/168953209-9e585463-628b-4ce0-8052-39432bfd99b9.gif)
 - [Report.pdf](./Word_App/WordApp(MFC).pdf) 참고  
 
 # 기타 의견  
